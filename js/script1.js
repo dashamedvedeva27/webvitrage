@@ -23,7 +23,7 @@ $(function(){
     $( "#draggable6" ).draggable({ snap: ".ui-widget-header", snapMode: "inner" });
      } );
 
-      const arr = ["#EE4629", "#364CA2" , "#FC931F" , "#058264"];
+      const arr = ["#EE4629", "#364CA2" , "#FC931F" , "#058264", "#F680CD"];
 
       function getRandomNumber () {
        return Math.floor(Math.random() * arr.length);
