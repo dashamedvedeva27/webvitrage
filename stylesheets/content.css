@@ -89,8 +89,6 @@ height: 100vh;
 
 /* второй экран */
 
-
-
 .screen3 {
   width: 100vw;
   height: 100vh;
@@ -110,16 +108,34 @@ height: 100vh;
   left: 27vw;
 }
 
-.dot {
-  position: absolute;
-   top: 1.3vw;
-   left: 2.75vw;
-
-}
-
 .arrow {
-  left: 90px;
+  position: absolute;
+  z-index: 1;
+  left: 1210px;
+  top: 4px;
 }
+.window1 {
+  position: absolute;
+  z-index: 2;
+  left: 25vw;
+  top: 10vh;
+}
+.prokrutka {
+  position:absolute;
+  font-family: monospace;
+  font-size: 28px;
+  left: 380px;
+  top: 146px;
+  z-index: 3;
+  width:580px;
+  height:367px;
+  overflow-y: scroll; /* свойство для прокрутки по горизонтали. Автоматом, если больше блока */
+}
+
+.prokrutka::-webkit-scrollbar {
+  width: 0;
+}
+
 
 /* первый кусочек */
 .slice1 {
@@ -155,6 +171,17 @@ height: 100vh;
   left: 160px;
 }
 
+
+/* второй кусочек */
+.slice2 {
+  position: absolute;
+  width: 428px;
+  height: 307px;
+  top: 23vw;
+  left: 4vw;
+  background-image: url(../img/slice2.svg);
+}
+
 .e5 {
   position: absolute;
   top: 4px;
@@ -185,6 +212,16 @@ height: 100vh;
   left:3.5px;
 }
 
+/* третий кусочек */
+.slice3 {
+  position: absolute;
+  width: 428px;
+  height: 307px;
+  top: 21vw;
+  left: 34vw;
+  background-image: url(../img/slice3.svg);
+}
+
 .e10 {
   position: absolute;
   top: 4.2px;
@@ -201,6 +238,17 @@ height: 100vh;
   position: absolute;
   top: 4px;
   left:4px;
+  }
+
+
+/* четвертый кусочек */
+  .slice4 {
+    position: absolute;
+    width: 428px;
+    height: 307px;
+    top: 4vw;
+    left: 10vw;
+    background-image: url(../img/slice4.svg);
   }
 
 .e13 {
@@ -227,6 +275,17 @@ height: 100vh;
   left:206.5px;
   }
 
+
+/* пятый кусочек */
+  .slice5 {
+    position: absolute;
+    width: 428px;
+    height: 307px;
+    top: 5vw;
+    left: 38vw;
+    background-image: url(../img/slice5.svg);
+  }
+
 .e17 {
   position: absolute;
   top: 4px;
@@ -249,6 +308,17 @@ height: 100vh;
   position: absolute;
   top: 11px;
   left:184px;
+  }
+
+
+/* шестой кусочек */
+  .slice6 {
+    position: absolute;
+    width: 428px;
+    height: 307px;;
+    top: 17vw;
+    left: 64vw;
+    background-image: url(../img/slice6.svg);
   }
 
 .e21 {
@@ -279,49 +349,4 @@ height: 100vh;
   position: absolute;
   top: 184px;
    left:262px;
-}
-
-.slice2 {
-  position: absolute;
-  width: 428px;
-  height: 307px;
-  top: 23vw;
-  left: 4vw;
-  background-image: url(../img/slice2.svg);
-}
-
-.slice3 {
-  position: absolute;
-  width: 428px;
-  height: 307px;
-  top: 21vw;
-  left: 34vw;
-  background-image: url(../img/slice3.svg);
-}
-
-.slice4 {
-  position: absolute;
-  width: 428px;
-  height: 307px;
-  top: 4vw;
-  left: 10vw;
-  background-image: url(../img/slice4.svg);
-}
-
-.slice5 {
-  position: absolute;
-  width: 428px;
-  height: 307px;
-  top: 5vw;
-  left: 38vw;
-  background-image: url(../img/slice5.svg);
-}
-
-.slice6 {
-  position: absolute;
-  width: 428px;
-  height: 307px;;
-  top: 17vw;
-  left: 64vw;
-  background-image: url(../img/slice6.svg);
 }

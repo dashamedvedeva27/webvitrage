@@ -36,3 +36,22 @@ $(document).ready(function(){
        })
        return arr["randIndex"]
       });
+
+      $(document).ready(function(){
+        $(".arrow").click(function() {
+          $(".window1").removeClass("none");
+          $(".prokrutka").removeClass("none");
+
+        })
+      })
+
+      $(document).ready(function(){
+        $(".prokrutka").click(function() {
+          $(".logotip").removeClass("none");
+          $(".screen2").addClass("none");
+          $(".screen3").addClass("none")
+          $(".window1").addClass("none");
+          $(".prokrutka").addClass("none");
+
+        })
+      })
