@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>несудьба</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheets" href="stylesheets/adaptive.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/script1.js"></script>
+  </head>
+
+  <body>
+
+    <!-- третий  экран -->
+    <div class="screen3 none ui-widget-header">
+      <img src="img/arrow.svg" class="arrow">
+
+         <!-- первый кусочек -->
+        <div id="draggable1" class="slice1">
+         <svg class="e1" width="292" height="194" viewBox="0 0 292 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path class='r1' d="M0 0H292L107.29 194L0 172.746V0Z" fill="#FEDCD2"/></svg>
+         <svg class="e2" width="308" height="255" viewBox="0 0 308 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path class='r1' d="M184.965 0H308V70.3138V254.654L177.401 229.612L0 194.296L184.965 0Z" fill="#FEDCD2"/></svg>
+         <svg class="e3" width="420" height="121" viewBox="0 0 420 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path class='r1' d="M0 0L420 82.2753V120.286H0V0Z" fill="#FEDCD2"/></svg>
+       </div>
+
+      <!-- второй кусочек -->
+       <div id="draggable2" class="slice2">
+         <svg class="e4" width="264" height="138" viewBox="0 0 264 137" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M264 0H0L208.31 136.2H264V0Z" fill="#058264"/></svg>
+        <svg class="e5" width="360" height="139" viewBox="0 0 360 139" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H150.204L360 139H237.606C226.615 124.104 212.868 110.09 196.18 96.3603C151.377 59.4997 108.099 51.5315 50.2948 56.1101C34.752 57.3413 14.9514 62.485 0 68.9231V0Z" fill="#FEDCD2"/></svg>
+        <svg class="e6"  width="184" height="157" viewBox="0 0 184 157" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M32.5581 157C35.0615 144.447 36.5115 131.151 36.5643 116.766C36.7374 69.606 25.2638 33.1294 0.0830078 1.05119V0H184V157H32.5581Z" fill="#FEDCD2"/></svg>
+        <svg class="e7" width="196" height="164" viewBox="0 0 196 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M191.218 163.052C212.003 90.4102 150.185 -20.4659 50.51 3.48008C33.0571 7.67296 13.3092 16.1799 0 24.461V163.052H191.218Z" fill="#FEDCD2"/></svg>
+        <svg class="e8" width="271" height="244" viewBox="0 0 271 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path d="M52.5124 80.4975C152.324 56.0576 217.175 169.294 196.134 243.326L269.349 243.326C271.395 231.908 270.596 213.849 270.714 200.894C271.337 132.157 248.065 87.6406 194.905 44.0019C150.166 7.27488 110.948 -2.66437 53.2253 1.89766C36.9989 3.18007 16.1255 8.72328 0.99637 15.5465L0.996395 101.547C14.3023 92.9061 34.6142 84.88 52.5124 80.4975Z" fill="#FEDCD2"/></svg>
+        <svg class="e9" width="196" height="164" viewBox="0 0 196 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path fill-rule="evenodd" clip-rule="evenodd" d="M191.218 163.052C212.003 90.4102 150.185 -20.4659 50.51 3.48008C33.0571 7.67296 13.3092 16.1799 0 24.461V163.052H191.218Z" fill="#FEDCD2"/></svg>
+       </div>
+
+        <!-- третий кусочек -->
+       <div id="draggable3" class="slice3">
+         <svg class="e10"  width="284" height="141" viewBox="0 0 284 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <path d="M283.729 0H0L283.729 140.856V0Z" fill="#FEDCD2"/></svg>
+         <svg class="e11" width="420" height="257" viewBox="0 0 420 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M211.398 0L0 197.363V256.677H419.418V102.449L211.398 0Z" fill="#FEDCD2"/></svg>
+        <svg class="e12" width="208" height="235" viewBox="0 0 208 235" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M121.102 0H0V234.713L207.45 40.8584L121.102 0Z" fill="#FEDCD2"/></svg>
+       </div>
+
+         <!-- четвертый кусочек -->
+       <div id="draggable4" class="slice4">
+        <svg class="e13"  width="115" height="298" viewBox="0 0 115 298" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0H60.5L114.922 149.057L79 298H0V0Z" fill="#FEDCD2"/></svg>
+        <svg class="e14" width="353" height="206" viewBox="0 0 353 206" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0H352.537V87.1554L226.294 205.38L52.4923 145.61L0 0Z" fill="#FEDCD2"/></svg>
+        <svg class="e15" width="206" height="148" viewBox="0 0 206 148" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M34.9306 0L205.224 58.4545L112.5 147.688H0L34.9306 0Z" fill="#FEDCD2"/></svg>
+       <svg class="e16" width="218" height="208" viewBox="0 0 218 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M217.537 0L0 207.204H217.537V0Z" fill="#FEDCD2"/></svg>
+       </div>
+
+       <!-- пятый кусочек -->
+       <div id="draggable5" class="slice5">
+        <svg class="e17" width="347" height="143" viewBox="0 0 347 143" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M347 0H0V17L265.5 143L347 0Z" fill="#FEDCD2"/></svg>
+       <svg class="e18"width="262" height="278" viewBox="0 0 262 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M0 277.5V0L262 124.5L176 277.5H0Z" fill="#FEDCD2"/></svg>
+       <svg class="e19" width="155" height="299" viewBox="0 0 155 299" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M155 0H89.4506L0 299H155V0Z" fill="#FEDCD2"/></svg>
+       <svg class="e20" width="169" height="293" viewBox="0 0 169 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M168.223 0L0 292.027H82.1381L168.223 0Z" fill="#FEDCD2"/></svg>
+      </div>
+
+      <!-- шестой кусочек ура боже -->
+       <div id="draggable6" class="slice6">
+       <svg class="e21" width="169" height="167" viewBox="0 0 169 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M38.0688 167C110.285 167 168.827 108.457 168.827 36.2417C168.827 23.6676 167.052 11.5081 163.739 0H0V161.372C12.0455 165.032 24.8273 167 38.0688 167Z" fill="#FEDCD2"/></svg>
+      <svg class="e22" width="164" height="144" viewBox="0 0 164 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M101.07 0.873359C81.6316 11.2594 59.4281 17.1475 35.8494 17.1475C23.4521 17.1475 11.4349 15.5198 0 12.4663V143.496H164L101.07 0.873359Z" fill="#FEDCD2"/></svg>
+      <svg class="e23" width="317" height="299" viewBox="0 0 317 299" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M69.3229 33.2049C69.3229 84.7887 41.6694 129.832 0.554688 153.965L64.0317 298.407H82.9285L83.4082 298.014C84.5895 294.979 85.7663 291.91 86.9405 288.809C91.034 277.997 94.5672 268.19 97.8099 259.189C116.733 206.664 125.765 181.594 178.53 144.553C224.203 112.491 311.735 104.773 317 104.335V0H67.5226L66.12 3.16354C68.2175 12.8393 69.3229 22.8914 69.3229 33.2049Z" fill="#FEDCD2"/></svg>
+      <svg class="e24" width="231" height="192" viewBox="0 0 231 192" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M110.247 116.926C146.312 80.954 180.335 72.8051 229.724 66.3942L230.361 0.129045C230.361 0.129045 140.186 9.0781 92.8041 41.1825C30.6288 83.3102 33.822 107.499 3.68533 179.272C2.03507 183.203 1.56938 187.154 0.00023199 191.011L65.4702 190.979C75.1683 165.028 84.8331 142.274 110.247 116.926Z" fill="#FEDCD2"/></svg>
+      <svg class="e25" width="163" height="119" viewBox="0 0 163 119" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M139.88 0.124023C103.68 5.66384 75.5136 13.9647 45.9905 43.4116C20.8265 68.5106 10.0014 91.0879 0.359375 116.671V119H162.725V0.124023H139.88Z" fill="#FEDCD2"/></svg>
+       </div>
+
+
+    </div>
+
+    <!-- второй экран -->
+    <div class="screen2 none">
+
+
+        <div class="slice1">
+         <img src="img/slice1.svg" class="s1">
+       </div>
+
+       <div class="slice2">
+          <img src="img/slice2.svg" class="s2">
+       </div>
+
+       <div class="slice3">
+          <img src="img/slice3.svg" class="s3">
+       </div>
+
+       <div class="slice4">
+          <img src="img/slice4.svg" class="s4">
+       </div>
+
+       <div class="slice5">
+          <img src="img/slice5.svg" class="s5">
+       </div>
+
+       <div class="slice6">
+          <img src="img/slice6.svg" class="s6">
+       </div>
+
+       <div class="window">
+        <img src="img/window.svg" class="nads">
+      </div>
+
+
+    </div>
+
+
+
+
+    <!-- первый экран -->
+    <div class="logotip">
+      <img src="img/logo1.svg" class="logo1">
+      <img src="img/logo2.svg" class="logo2">
+      <img src="img/logo3.svg" class="logo3">
+      <img src="img/logo4.svg" class="logo4">
+    </div>
+
+
+  </body>

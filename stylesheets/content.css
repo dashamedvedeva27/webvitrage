@@ -1,0 +1,327 @@
+:root {
+--red: #EE4629;
+--blue: #364CA2;
+--black: #000000;
+--white: #FEDCD2;
+--yellow: #FC931F;
+--green: #058264;
+}
+
+html {
+background: #FEDCD2;
+display: block;
+height: 100vh;
+}
+
+.none {
+  display: none;
+}
+
+/* первый экран */
+
+.logotip {
+  position: relative;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+}
+
+.logo1 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo1 1.5s linear infinite;
+}
+
+@keyframes logo1 {
+  0% {opacity: 1;}
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.logo2 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo2 1.5s linear infinite;
+}
+
+@keyframes logo2 {
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.logo3 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo3 1.5s linear infinite;
+}
+
+@keyframes logo3 {
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.logo4 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo4 1.5s linear infinite;
+}
+
+@keyframes logo4 {
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+/* второй экран */
+
+
+
+.screen3 {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  position:fixed;
+}
+
+.svg {
+  position:fixed;
+  width:100vw;
+  opacity: 10%;
+}
+
+.window {
+  position: absolute;
+  top: 12vw;
+  left: 27vw;
+}
+
+.dot {
+  position: absolute;
+   top: 1.3vw;
+   left: 2.75vw;
+
+}
+
+.arrow {
+  left: 90px;
+}
+
+/* первый кусочек */
+.slice1 {
+  position:absolute;
+  width: 428px;
+  height: 305px;
+  top: 2vw;
+  left: 60vw;
+  background-image: url(../img/slice1.svg);
+}
+
+.e1 {
+  position: absolute;
+  top: 4px;;
+  left: 4px;;
+}
+
+.e2 {
+  position: absolute;
+  top: 4px;
+  left: 115px;
+}
+
+.e3 {
+  position: absolute;
+  top: 180px;
+  left: 0.3vw;
+}
+
+.e4 {
+  position: absolute;
+  top: 4px;
+  left: 160px;
+}
+
+.e5 {
+  position: absolute;
+  top: 4px;
+  left:3px;
+}
+
+.e6 {
+  position: absolute;
+  top: 145.6px;
+  left:241px;
+}
+
+.e7 {
+  position: absolute;
+  top: 141px;
+  left:3.5px;
+}
+
+.e8 {
+  position: absolute;
+  top: 60px;
+  left:3px;
+}
+
+.e9 {
+  position: absolute;
+  top: 141px;
+  left:3.5px;
+}
+
+.e10 {
+  position: absolute;
+  top: 4.2px;
+ left:139.3px;
+  }
+
+.e11 {
+  position: absolute;
+  top: 46px;
+  left:4px;
+  }
+
+.e12 {
+  position: absolute;
+  top: 4px;
+  left:4px;
+  }
+
+.e13 {
+  position: absolute;
+  top: 4.4px;
+  left:4px;
+  }
+
+.e14 {
+  position: absolute;
+  top: 4.4px;
+  left:70px;
+  }
+
+.e15 {
+  position: absolute;
+  top: 155px;
+  left:88px;
+  }
+
+.e16 {
+  position: absolute;
+  top: 95.5px;
+  left:206.5px;
+  }
+
+.e17 {
+  position: absolute;
+  top: 4px;
+  left:4px;
+  }
+
+.e18 {
+  position: absolute;
+  top: 25px;
+  left:4px;
+  }
+
+.e19 {
+  position: absolute;
+  top: 4px;
+  left:270px;
+  }
+
+.e20 {
+  position: absolute;
+  top: 11px;
+  left:184px;
+  }
+
+.e21 {
+  position: absolute;
+  top: 4px;
+  left:4px;
+  }
+
+.e22 {
+  position: absolute;
+  top: 159px;
+  left:4px;
+  }
+
+.e23 {
+  position: absolute;
+  top: 4px;
+  left:107px;
+  }
+
+.e24 {
+  position: absolute;
+  top: 112px;
+   left:194px;
+   }
+
+.e25 {
+  position: absolute;
+  top: 184px;
+   left:262px;
+}
+
+.slice2 {
+  position: absolute;
+  width: 428px;
+  height: 307px;
+  top: 23vw;
+  left: 4vw;
+  background-image: url(../img/slice2.svg);
+}
+
+.slice3 {
+  position: absolute;
+  width: 428px;
+  height: 307px;
+  top: 21vw;
+  left: 34vw;
+  background-image: url(../img/slice3.svg);
+}
+
+.slice4 {
+  position: absolute;
+  width: 428px;
+  height: 307px;
+  top: 4vw;
+  left: 10vw;
+  background-image: url(../img/slice4.svg);
+}
+
+.slice5 {
+  position: absolute;
+  width: 428px;
+  height: 307px;
+  top: 5vw;
+  left: 38vw;
+  background-image: url(../img/slice5.svg);
+}
+
+.slice6 {
+  position: absolute;
+  width: 428px;
+  height: 307px;;
+  top: 17vw;
+  left: 64vw;
+  background-image: url(../img/slice6.svg);
+}
