@@ -6,7 +6,7 @@ $(document).ready(function(){
   })
 })
 
-$(document).ready(function(){
+$(function(){
   $(".window").click(function() {
     $(".logotip").addClass("none");
     $(".screen2").addClass("none");
@@ -29,7 +29,7 @@ $(document).ready(function(){
        return Math.floor(Math.random() * arr.length);
       }
 
-      $(document).ready(function(){
+      $(function(){
         $("path").click(function(){
          const randIndex = getRandomNumber()
          $(this).attr("fill", (arr[randIndex]))
@@ -37,7 +37,7 @@ $(document).ready(function(){
        return arr["randIndex"]
       });
 
-      $(document).ready(function(){
+      $(function(){
         $(".arrow").click(function() {
           $(".window1").removeClass("none");
           $(".prokrutka").removeClass("none");
@@ -45,7 +45,7 @@ $(document).ready(function(){
         })
       })
 
-      $(document).ready(function(){
+      $(function(){
         $(".prokrutka").click(function() {
           $(".logotip").removeClass("none");
           $(".screen2").addClass("none");
